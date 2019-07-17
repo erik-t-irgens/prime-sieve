@@ -17,26 +17,38 @@ namespace Prime
             Thread.Sleep(1000);
             Console.WriteLine("Enter your NUMBER, user....");
             Number userNumber = new Number(0);
-            int userInput = int.Parse(Console.ReadLine());
+            var userInput = int.Parse(Console.ReadLine());
             userNumber.SetNumber(userInput);
             Thread.Sleep(1000);
             Console.WriteLine("Good. Goooood... Now watch this.");
-            List<int> PrimesFromNumber = new List<int>(0);
-            for (int i = 2; i < userNumber.GetUserNumber(); i++)
+            var NumbersBeneath = new List<int>(0);
+            var PrimesFromNumber = new List<int>(0);
+            PrimesFromNumber.Add(2);
+            var isPrime = new List<bool>(0);
+            for (var i = 2; i < userNumber.GetUserNumber(); i++)
             {
-                for (int j = 2; j < i; j++)
+                NumbersBeneath.Add(i);
+                isPrime.Add(true);
+            }
+
+            for (int j = 2; j < NumbersBeneath.Count; j++)
+            {
+                if (isPrime[j])
                 {
-                    Thread.Sleep(500);
-                    if (i % j == 0)
+                    for (int p = 2; (p * j) < NumbersBeneath.Count; p++)
                     {
-                        Console.WriteLine(".");
-                    }
-                    else
-                    {
-                        PrimesFromNumber.Add(i);
-                        return;
+                        isPrime[p * j] = false;
                     }
                 }
+            }
+
+            for (int x = 0; x < isPrime.Count; x++)
+            {
+                if (isPrime[x])
+                {
+                    Console.WriteLine(NumbersBeneath[x]);
+                }
+
             }
             Console.WriteLine("Here we go...");
             Thread.Sleep(1000);
