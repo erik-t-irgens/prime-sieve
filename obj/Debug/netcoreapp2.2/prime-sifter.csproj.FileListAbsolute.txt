@@ -1,0 +1,11 @@
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.csprojAssemblyReference.cache
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.AssemblyInfoInputs.cache
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.AssemblyInfo.cs
+/Users/Guest/Desktop/prime-sifter/bin/Debug/netcoreapp2.2/prime-sifter.deps.json
+/Users/Guest/Desktop/prime-sifter/bin/Debug/netcoreapp2.2/prime-sifter.runtimeconfig.json
+/Users/Guest/Desktop/prime-sifter/bin/Debug/netcoreapp2.2/prime-sifter.runtimeconfig.dev.json
+/Users/Guest/Desktop/prime-sifter/bin/Debug/netcoreapp2.2/prime-sifter.dll
+/Users/Guest/Desktop/prime-sifter/bin/Debug/netcoreapp2.2/prime-sifter.pdb
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.dll
+/Users/Guest/Desktop/prime-sifter/obj/Debug/netcoreapp2.2/prime-sifter.pdb
